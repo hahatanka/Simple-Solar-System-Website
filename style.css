@@ -1,0 +1,140 @@
+body { 
+    background: url("https://img.wallpapersafari.com/desktop/1600/900/68/94/HpDEWg.jpg"); 
+    background-size: cover;  
+    color: rgba(255, 255, 255, 0.7);
+  }
+  h1{
+    color: beige;
+  }
+divText{
+    color: rgba(255, 255, 255, 0.7);
+       font-size: 25px;
+       text-align: center;
+       
+}
+
+.textSmall{
+  color: rgba(255, 255, 255, 0.7);
+       font-size: 25px;
+       text-align: justify;
+       width:25%;
+       float:left;
+       margin: 80px;
+       
+}
+.textSmallRight{
+  color: rgba(255, 255, 255, 0.7);
+       font-size: 25px;
+       text-align: justify;
+       width:25%;
+       float:right;
+       margin: 60px;
+}
+.textList{
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+       font-size: 18px;
+       text-align: justify;
+       width:50%;
+       float:left;
+       margin: 80px;
+}
+.navbar{
+  width: 100%;
+  margin-left: auto ;
+  margin-right: auto ;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.navbar li {
+  display: inline-block;
+  
+}
+
+li a {
+
+  float: right;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 24px 96px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Popup container */
+.popup {
+  display:flex;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgba(14, 71, 75, 0.801);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  margin-left: -50px;
+  font-size: 15px;
+}
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+table {
+  position:relative;
+  top:50px;
+  left:250px;
+  border-collapse: collapse;
+  width: 80%;
+  text-align:center;
+ }
+ td, th {
+  
+ 
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  padding: 15px;
+ }
+ tr{
+ background-color: rgba(8, 8, 8, 0.402);
+ }
+ tr:nth-child(even) {
+  background-color: #dddddd54;
+ }
+ 
